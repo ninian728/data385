@@ -16,8 +16,15 @@ website:
     right:
       - icon: github
         href: https://github.com/ninian728
-  
-
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - index.qmd
+      - about.qmd
+      - section: "Assignments"
+        contents: 
+          - AE04-survey-types.qmd
 format:
   html:
     theme:
